@@ -1,0 +1,32 @@
+{
+    "name": "Fichier d'exemple",
+    "fileName": "sample.docx",
+    "description": "Uniquement pour faire une démo du service. Pensez à virer ce fichier JSON pour ne pas polluer votre interface :)",
+    "sections": [
+        {
+            "order": 1,
+            "name": "Client",
+            "allowRemember": true,
+            "fields": [
+                {
+                    "id": "client",
+                    "name": "Nom de l'entreprise",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "name": "Prestataire",
+            "allowRemember": false,
+            "fields": [
+                {
+                    "id": "prestataire",
+                    "name": "Nom du prestataire",
+                    "type": "text"
+                }
+            ]
+        }
+    ],
+    "dicts": {}
+}

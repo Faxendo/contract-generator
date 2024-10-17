@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Project specific
+models/*
+!models/sample.json
+!models/sample.docx
+output/*
+!output/.gitkeep
